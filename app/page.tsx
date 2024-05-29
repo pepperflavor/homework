@@ -2,7 +2,6 @@
 
 import PasswordInput from "@/components/form-password";
 import LoginBtn from "@/components/login-button";
-import Image from "next/image";
 import { useFormState } from "react-dom";
 import { handlePassword } from "./actions";
 import { error } from 'console';
@@ -15,7 +14,7 @@ export default function Home() {
 
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-8 px-6 bg-red-300 gap-3">
+    <div className="flex flex-col items-center justify-center min-h-screen py-8 px-6 gap-3">
       <div className="flex flex-col *:font-medium">
       <h1 className="text-2xl font-extrabold">Login page</h1>
       </div>

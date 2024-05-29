@@ -21,7 +21,7 @@ const formSchema = z.object({
         password : formData.get("password")
     }
 
-        const result = formSchema.safeParse(data)
+    const result = formSchema.safeParse(data)
     if(!result.success){
         console.log(data)
         console.log(result.error.flatten)
